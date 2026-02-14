@@ -1,16 +1,50 @@
-# React + Vite
+# 🥞 PancakeSwap Clone DApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+A feature-rich **DeFi Swap + Multi-Token Staking DApp** built on **BNB Testnet**, inspired by PancakeSwap.  
+Users can swap tokens and stake in multiple pools to earn rewards, with a dedicated
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Key Features
+- **Token Swap:** Intuitive interface for swapping between tokens.
+- **Multi-Token Staking:** Stake in various pools to earn rewards.
+- **Real-Time Pool Analytics:** View live APR, total holdings, wallet balance, pending rewards, and staked amounts.
+- **Intelligent Reward Warnings:** DApp detects low reward balances in the contract and displays a **"Low Rewards" warning** to users, preventing failed transactions.
+- **Comprehensive Admin Panel:** A separate interface for the contract owner to add new staking pools, set reward rates, and deposit more reward tokens.
+- **Web3 Integration:** Seamless wallet connection via MetaMask.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Tech Stack
+- **Frontend:** React.js, Ethers.js
+- **Smart Contracts:** Solidity
+- **Blockchain Network:** BNB Smart Chain Testnet
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Swap Page | Staking Page |
+|-----------|--------------|
+| ![Swap Page](./screenshots/swap.png) | ![Staking Page](./screenshots/staking.png) |
+
+
+
+## ⚡ Quick Start
+
+### Prerequisites
+- [Node.js](https://nodejs.org/)
+- [MetaMask](https://metamask.io/) installed in your browser, configured for BNB Testnet.
+
+### Installation
+```bash
+git clone https://github.com/Emran468/pancakeswapclone.git
+cd pancakeswapclone
+npm install
+npm run dev
+
+
+1.Open your browser at http://localhost:5173
+
+2.Connect MetaMask
+
+3.Swap tokens & stake to earn rewards
