@@ -3,6 +3,7 @@
 
 A feature-rich **DeFi Swap + Multi-Token Staking DApp** built on **BNB Testnet**, inspired by PancakeSwap.  
 Users can swap tokens and stake in multiple pools to earn rewards, with a dedicated
+🌐 Live Demo: https://pancakeswapclone-alpha.vercel.app/swap
 ---
 
 ## 🔥 Key Features
